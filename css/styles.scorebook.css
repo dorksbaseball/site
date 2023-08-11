@@ -1,0 +1,148 @@
+body{
+  color: white;
+  background-color: black;
+  font-family: "Meiryo UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+  "Yu Gothic UI", "MS PGothic", sans-serif !Important;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.menu li a.active {
+  background: #333;
+  color: #fff;
+}
+
+.content.active {
+  display: block;
+}
+
+.content {
+  display: none;
+}
+
+.box1{
+  color: white;
+ font-size: 2em;
+ font-weight: bold;
+}
+
+section > a {
+  color: #00ff08;
+  margin: 0;
+  display: inline-block;
+}
+
+.box2{
+  color: white;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.box2{
+  color: white;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.score_board_h{
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.score_board_h_h{
+ font-size: 10px;
+ width: 200px;
+ font-weight: bold;
+ background-color: silver;
+}
+
+.score_board_h_b{
+ font-size: 15px;
+ width: 200px;
+ font-weight: bold;
+ background-color: silver;
+}
+
+.score_board_tb1{
+  color: white;
+ font-size: 15px;
+ font-weight: bold;
+ background-color: white;
+ margin-top: 3px;
+ margin-bottom: 50px;
+ border: 0.5px solid white;
+ box-sizing: border-box;
+ text-align: center;
+}
+
+.score_board_team{
+  background-color: green;
+  width: 200px;
+}
+
+.score_board_inning{
+  background-color: green;
+  width: 50px;
+}
+
+.score_board_gamer{
+  background-color: green;
+  width: 69.8px;
+}
+
+.personalgamescore p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.personalgamescore th{
+  width: 1000px;
+  height: 50px;
+  background-color: rgba(176, 164, 164, 0.732);
+}
+
+.personalgamescore tr{
+  width: 1000px;
+  height: 50px;
+  background-color: rgba(176, 164, 164, 0.732);
+  text-align: center;
+}
+
+.personalgamescore {
+  display: none;
+}
+
+.personalgamescore.appear {
+  display: block;
+}
+
+
+.btn{
+  padding: 16px 32px ;
+  background: hsl(200,100%,40%);
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.btn:hover{
+  background-color: hsl(200,100%,45%);
+}

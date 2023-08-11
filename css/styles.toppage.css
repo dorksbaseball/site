@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+  body{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    font-family: "Meiryo UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+    "Yu Gothic UI", "MS PGothic", sans-serif !Important;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 > img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1{
+    color: white;
+    font-size: 40px;
+    display: flex;
+  }
+
+  h1 p {
+    margin: 0;
+  }
+  
+  h2{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 160px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .all {
+    position: relative;
+  }
+  
+  ul{
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+
+  li:hover{
+  background: silver;
+  }
+
+  .box1{
+    position: absolute;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    top: 22.5%;
+    left: 0;
+    width: 50%;
+    line-height: 50px;
+    background: #333;
+  }
+
+  .box2{
+    position: absolute;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    top: 22.5%;
+    left: 50%;
+    width: 50%;
+    background: #333;
+    line-height: 50px;
+  }
+
+  .box3{
+    position: absolute;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    top: 72.5%;
+    left: 0;
+    width: 50%;
+    background: #333;
+    line-height: 50px;
+  }
+
+  .box4{
+    position: absolute;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    top: 72.5%;
+    left: 50%;
+    width: 50%;
+    background: #333;
+    line-height: 50px;
+  }
+
+
+.title{
+  margin: 0,auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+.backgroundphoto {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 50%;
+}
+
+header{
+  background-color: inherit;
+  color: inherit;
+}
+
+footer{
+  background-color: inherit;
+  color: inherit;
+}

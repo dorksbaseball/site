@@ -1,0 +1,93 @@
+body{
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: "Meiryo UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+  "Yu Gothic UI", "MS PGothic", sans-serif !Important;
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+h1{
+  font-size: 2em;
+}
+
+p1{
+  background-color:  gray;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  /* transition: transform 1s ease 0.3s; */
+  color: black;
+  font-weight: normal;
+  border-bottom: 2px solid white;
+  /* animation-name: move;
+  animation-duration: 4s;
+  animation-delay: 1s; */
+  animation: move 4s 3 1s;
+  animation-fill-mode: forwards;
+  /* animation-iteration-count: 3; */
+  animation-direction: alternate ;
+  /* animation-direction: reverse; */
+  /* animation-direction:alternate-reverse; */
+  /* animation-timing-function: linear; */
+}
+
+p2{
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+p3{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+p1:hover{
+  /* transform: rotate(360deg) rotate(360deg); */
+  /* transform: rotate(30deg); */
+  /* transform: scale(.5,2); */
+  background: gold;
+}
+
+@keyframes move{
+  0%{
+    transform: none;
+    animation-timing-function: linear;
+  }
+  30%{
+    transform: none;
+    animation-timing-function: linear;
+  }
+  80%{
+    transform:  translateX(250px) rotate(360deg); 
+  }
+  100%{
+    transform:  translateX(300px) rotate(360deg);
+  }
+}
+
+
+
+.btn{
+  padding: 16px 32px ;
+  background: hsl(200,100%,40%);
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.btn:hover{
+  background-color: hsl(200,100%,45%);
+}
